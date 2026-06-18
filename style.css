@@ -31,6 +31,9 @@ ul{list-style:none}
 .nav-links a:hover{color:var(--white)}
 .nav-cta{font-family:'Inter',sans-serif;font-size:.85rem;font-weight:600;color:var(--cyan);border:1px solid var(--glass-border-strong);padding:9px 22px;border-radius:8px;background:var(--glass-bg);backdrop-filter:blur(10px);transition:background .2s,border-color .2s,transform .2s}
 .nav-cta:hover{background:var(--glass-bg2);border-color:var(--cyan);transform:translateY(-1px)}
+.nav-link-group{display:flex;gap:10px}
+.nav-cta.secondary{color:var(--white);border-color:var(--glass-border)}
+.nav-cta.secondary:hover{border-color:var(--cyan);color:var(--cyan)}
 
 /* HERO */
 #hero{position:relative;min-height:100vh;display:flex;align-items:center;overflow:hidden;padding:140px 0 80px}
